@@ -4,7 +4,7 @@ const Footer = () => {
       <ul className="flex flex-col gap-4 md:flex-row">
         <li>
           <a
-            href="https://github.com/Abdelkrim-Saouchi/Drugs-In-Algeria"
+            href="https://github.com/Abdelkrim-Saouchi/MediRembours"
             target="_blank"
             className="flex items-center gap-2"
           >

@@ -1,3 +1,7 @@
 # MediRembours
 
-Simple site destinated to medical professionals of verify reimbursement conditions of various medications.
+Simple site destinated to medical professionals to verify reimbursement conditions of various medications.
+
+## Links
+
+demo [here](https://medirembours.netlify.app/).
