@@ -35,7 +35,7 @@ const Main = () => {
   useEffect(() => {
     const timerId = setTimeout(() => {
       setDebouncedQuery(query);
-    }, 300);
+    }, 500);
 
     return () => {
       clearTimeout(timerId);
@@ -57,7 +57,7 @@ const Main = () => {
       ...el,
       condition: conditionFile[numberToString(el.Code)],
     }));
-  }, []);
+  }, [jsonFile, condiFile]);
 
   const result = useMemo(() => {
     setSelectedIndex(0);
